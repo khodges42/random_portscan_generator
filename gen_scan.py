@@ -32,5 +32,5 @@ def generate_box(subnet=56, hostname="sensenet_"):
 
     return {hostname:{"ports":ports}}
         
-        
-print({"scan":[generate_box() for x in range(random.randint(1,4))]})
+if __name__ == "__main__":
+    print({"scan":[generate_box() for x in range(random.randint(1,4))]})
