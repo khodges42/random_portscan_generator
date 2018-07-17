@@ -1,6 +1,17 @@
 # Random Port Scan Generator
 
-I needed a util to generate random portscan data, soThis is a util that generates random port scan data. Maybe someone'll make use of it.
+### Dependencies
+* Python 3.x (May work in 2? Does dictionary comprehension work in 2.x?)
+* Scapy
+
+### Usage
+```python random_portscan_generator.py```
+
+or
+
+```import random_portscan_generator```
+
+I needed a util to generate random portscan data, so, here is a util that generates random port scan data. Maybe someone'll make use of it.
 
 ```
 import random_portscan_generator
